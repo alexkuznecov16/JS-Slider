@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desktop slider</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://kit.fontawesome.com/39bbe9b596.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="wrapper__inner">
+                <div class="wrapper__item">
+                    <div class="item-title">
+                        <h2 class="item-title">Completed<br>projects</h2>
+                        <img src="img/line.png" alt="line">
+                    </div>
+                    <p class="item-text">Only a small part of the work performed by our company is presented<br>on the site. For 14 years on in the construction<br>market we have made happy more than 1000 families</p>
+                    <div class="item-information">
+                        <div class="item-info">
+                            <div class="info-item">
+                                <h4 class="info-item-name">City:</h4>
+                                <p id="city" class="info-item-text">Rostov-on-Don<br>LCD admiral</p>
+                            </div>
+                            <div class="info-item pd-left">
+                                <h4 class="info-item-name">Apartment area:</h4>
+                                <p id="apArea" class="info-item-text">81 m2</p>
+                            </div>
+                        </div>
+                        <div class="item-info">
+                            <div class="info-item">
+                                <h4 class="info-item-name">Repair time:</h4>
+                                <p id="repTime" class="info-item-text">3.5 months</p>
+                            </div>
+                            <div class="info-item">
+                                <h4 class="info-item-name">Repair cost:</h4>
+                                <p id="repCost" class="info-item-text">Upon request</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider">
+                        <i id="prevSlideOpen" title="Open previous slide" class="arrow fa-solid fa-arrow-left-long"></i>
+                        <div class="slider-dots">
+                            <i id="dot1" class="fa-solid fa-circle active"></i>
+                            <i id="dot2" class="fa-solid fa-circle"></i>
+                            <i id="dot3" class="fa-solid fa-circle"></i>
+                        </div>
+                        <i id="nextSlideOpen" title="Open next slide" class="arrow fa-solid fa-arrow-right-long"></i>
+                    </div>
+                </div>
+                <div class="wrapper__item">
+                    <nav class="wrapper__nav">
+                        <a id="link1" href="#" class="active">Rostov-on-Don, Admiral</a>
+                        <a id="link2" href="#">Sochi Thieves</a>
+                        <a id="link3" href="#">Rostov-on-Don Patriotic</a>
+                    </nav>
+                    <img id="slideImg" class="item-img" src="img/slide1.png" alt="slide1">
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.wrapper -->
+
+    <script src="scripts/app.js"></script>
+</body>
+</html>
