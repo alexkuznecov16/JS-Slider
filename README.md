@@ -6,6 +6,7 @@ My contacts:
 
 Links: 
 - template - https://www.figma.com/file/D4rkmpfIjEC3GwYBPgE1vd/Slider?type=design&node-id=2-42&t=GOYr1RQ4SgQ1g23U-0
+- website - https://js-slider-eight.vercel.app/
 
 ## Task
 ```
